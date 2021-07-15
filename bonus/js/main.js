@@ -42,9 +42,9 @@ else if (18 < yourAge < 65)
     price = price;
 }
 
-document.writeln(price);
+// document.writeln(price);
 
-
+document.getElementById("ticket").innerHTML="Prezzo del biglietto: " + price;
 
 
 
