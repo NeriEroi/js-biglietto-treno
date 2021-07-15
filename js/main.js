@@ -19,7 +19,7 @@ var price = 0.21 * howLong;
 
 // Sconto minorenni
 
-var discount_min = 0.2;
+var discount_min = 0.8;
 
 
 //Sconto over 65
@@ -36,6 +36,10 @@ if (yourAge < 18)
 else if (yourAge > 65)
 {
     price = price * discount_over;
+}
+else if (18 < yourAge < 65)
+{
+    price = price 
 }
 
 document.writeln(price);
