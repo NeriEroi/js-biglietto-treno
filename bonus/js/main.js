@@ -44,7 +44,7 @@ else if (18 < yourAge < 65)
 
 // document.writeln(price);
 
-document.getElementById("ticket").innerHTML="Prezzo del biglietto: " + price;
+document.getElementById("ticket").innerHTML="Prezzo del biglietto: " + price.toFixed(2);
 
 
 
