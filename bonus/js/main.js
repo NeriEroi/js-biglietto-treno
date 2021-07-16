@@ -24,7 +24,7 @@ var discount_min = 0.8;
 
 //Sconto over 65
 
-var discount_over = 0.4;
+var discount_over = 0.6;
 
 
 // Condizioni
